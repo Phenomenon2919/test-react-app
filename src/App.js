@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Testing
+          Learn Reaction Videos for free
         </a>
       </header>
     </div>
