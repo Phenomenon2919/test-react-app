@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Reaction Videos for free
+          Learn Reaction Videos for a price
         </a>
       </header>
     </div>
