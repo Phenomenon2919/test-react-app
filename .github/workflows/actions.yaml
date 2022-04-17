@@ -7,6 +7,6 @@ jobs:
       - uses: ./.github/actions/greet
         id: Greet
         with:
-          who-to-greet: ${{ GITHUB_ACTOR }}
+          who-to-greet: ${{ $GITHUB_ACTOR }}
       - run: |
           echo "Time: ${{ steps.greet.outputs.time }}"
