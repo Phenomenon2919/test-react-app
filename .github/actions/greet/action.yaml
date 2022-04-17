@@ -1,0 +1,14 @@
+name: Greeting
+author: Phenomenon2919
+description: Just a Greeting action
+inputs:
+  who-to-greet:
+    description: 'Who to Greet'
+    required: true
+    default: Void
+outputs:
+  time:
+    description: 'Time of Greeting'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
