@@ -8474,7 +8474,7 @@ const github = __nccwpck_require__(5438);
 try{
     // throw( new Error("Error present!"));
     const name = core.getInput('who-to-greet');
-    console.log('Hello ${name}');
+    console.log(`Hello ${name}`);
 
     const time = new Date();
     core.setOutput("time", time.toTimeString());
